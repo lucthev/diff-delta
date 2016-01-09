@@ -1,0 +1,28 @@
+{
+  "name": "diff-update",
+  "version": "1.0.0",
+  "description": "Convert an add/remove diff into an add/remove/update diff",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucthev/diff-update.git"
+  },
+  "keywords": [
+    "diff",
+    "update",
+    "replace"
+  ],
+  "author": "Luc Thevenard <lucthevenard@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lucthev/diff-update/issues"
+  },
+  "homepage": "https://github.com/lucthev/diff-update#readme",
+  "devDependencies": {
+    "standard": "^5.4.1",
+    "tape": "^4.4.0"
+  }
+}
