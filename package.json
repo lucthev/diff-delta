@@ -1,14 +1,14 @@
 {
-  "name": "diff-update",
+  "name": "diff-delta",
   "version": "1.0.0",
-  "description": "Convert an add/remove diff into an add/remove/update diff",
+  "description": "Convert an add/remove diff into an add/remove/update delta",
   "main": "index.js",
   "scripts": {
-    "test": "node test.js"
+    "test": "standard && node test.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lucthev/diff-update.git"
+    "url": "git+https://github.com/lucthev/diff-delta.git"
   },
   "keywords": [
     "diff",
@@ -18,10 +18,11 @@
   "author": "Luc Thevenard <lucthevenard@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/lucthev/diff-update/issues"
+    "url": "https://github.com/lucthev/diff-delta/issues"
   },
-  "homepage": "https://github.com/lucthev/diff-update#readme",
+  "homepage": "https://github.com/lucthev/diff-delta#readme",
   "devDependencies": {
+    "generic-diff": "^1.0.1",
     "standard": "^5.4.1",
     "tape": "^4.4.0"
   }
